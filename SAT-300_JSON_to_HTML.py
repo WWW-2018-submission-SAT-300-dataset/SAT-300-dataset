@@ -10,13 +10,13 @@ else:
 
     html_file = open('SAT-300.html', 'w')
 
-    html_file.write("""<!DOCTYPE html>
-                        <html lang="en">
-                        <head>
-                            <meta charset="UTF-8">
-                            <title>SAT-300 dataset</title>
-                        </head>
-                        <body>""")
+    html_file.write("""<!DOCTYPE html>\n"""
+                    """<html lang="en">\n"""
+                    """<head>\n"""
+                    """ <meta charset="UTF-8">\n"""
+                    """<title>SAT-300 dataset</title>\n"""
+                    """</head>\n"""
+                    """<body>\n""")
 
     disambiguated_text_index = 0
 
@@ -42,9 +42,9 @@ else:
                 del disambiguated_entities[0]
             char_index += 1
 
-        html_file.write('<br>\n<br>\n')
+        html_file.write('\n<br>\n<br>\n')
 
-    html_file.write("""</body>
-                        </html>""")
+    html_file.write("""</body>\n"""
+                    """"</html>\n""")
 
     html_file.close()
