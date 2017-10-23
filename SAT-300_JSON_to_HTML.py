@@ -42,7 +42,7 @@ else:
                 del disambiguated_entities[0]
             char_index += 1
 
-        html_file.write('<br><br>')
+        html_file.write('<br>\n<br>\n')
 
     html_file.write("""</body>
                         </html>""")
