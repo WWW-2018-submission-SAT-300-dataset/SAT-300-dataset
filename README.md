@@ -1,5 +1,4 @@
 # SAT-300-dataset
-Dataset of 300 short ambiguous texts used to evaluate named entity recognition and disambiguation performance.
 
 The SAT-300 dataset aims to provide ground truth for the task of Named Entity Recognition and Disambiguation.
 Its main focus is on short texts that have a high density of ambiguous named entities.
