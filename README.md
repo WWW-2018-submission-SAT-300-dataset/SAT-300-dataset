@@ -1,4 +1,4 @@
-# SAT-300-dataset
+# SAT-300 dataset
 
 The SAT-300 dataset aims to provide ground truth for the task of Named Entity Recognition and Disambiguation.
 Its main focus is on short texts that have a high density of ambiguous named entities.
