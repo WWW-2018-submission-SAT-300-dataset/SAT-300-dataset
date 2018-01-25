@@ -6,4 +6,5 @@ Each one of the dataset's 300 texts is accompanied with its named entities' star
 
 *SAT-300.json* is the dataset in JSON format. 
 *SAT-300_JSON_to_HTML.py* is a simple Python script that parses the JSON file and produces an HTML file containing the dataset, named *SAT-300.html*.
+Finally, the dataset is also distributed in NIF format, which is appropriate for the GERBIL annotator framework.
 
